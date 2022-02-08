@@ -1,0 +1,76 @@
+.chatPage{
+    background-color: rgb(36, 34, 34);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chatContainer{
+    background-color: white;
+    height: 60vh;
+    width: 50vw;
+    border-radius: 4px;
+}
+
+.chatContainer > .header{
+    background-color: crimson;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header > h2{
+   font-size: 1.5vmax;
+   color: white;
+   margin: 2.5vmax;
+   transition: all 0.5s;
+}
+.header > a{
+    text-decoration: none;
+    font-family: 'Roboto';
+    margin: 2.5vmax;
+    color: white;
+}
+.header > a:hover{
+    transform: scale(1.1);
+}
+
+.chatContainer > .chatBox {
+    height: 70%;
+    box-sizing: border-box;
+
+}
+
+.chatContainer > .inputBox{
+    height: 15%;
+    box-sizing: border-box;
+    display: flex;
+}
+
+#chatInput{
+
+    width: 81%;
+    border: none;
+    background-color: white;
+    box-sizing: border-box;
+   padding: 2vmax;
+   border: none;
+   outline: none;
+   font-size: 1.2vmax;
+   font-family: 'Roboto';
+   border-top: 0.2vmax solid rgba(41, 41, 41, 0.562);
+}
+.chatBtn{
+    background-color: crimson;
+    color: white;
+    border: none;
+    width: 21%;
+    transition: all 0.3s;
+    cursor: pointer;
+    
+}
+.chatBtn:hover{
+    background-color: rgb(150, 20, 46);
+}
